@@ -1,0 +1,163 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-block;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+
+html {
+    font-family: Roboto Mono, monospace;
+    font-size: 1.6 rem;
+    color: black;
+}
+
+header nav {
+    padding: 1% 0 0;
+}
+
+h1 {
+    font-family: Chelsea Market, cursive;
+    font-size: 3rem;
+    text-align: center;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    border-radius: 9px;
+    padding: 0.2% 2%;
+}
+
+nav a.orange {
+    background-color: #FF764E;
+    margin-left: 20%;
+}
+
+nav a.blue {
+    background-color: #5ED3EB;
+    margin: 0 10%;
+}
+
+nav a.yellow {
+    background-color: #FFCD69;
+    margin-right: auto;
+}
+
+.top {
+    position: relative;
+    padding: 4% 0 0;
+}
+
+#mountains {
+    width: 20%;
+    margin-left:10%;
+}
+
+#mountains img{
+    border-radius: 50%;
+}
+
+#message {
+    width: 45%;
+    margin-left: 4%;
+    margin-top: 3%;
+    position: absolute;
+}
+
+#message p {
+    text-align: center;
+}
+
+#message p:last-child{
+    margin: 0 25%;
+}
+
+#mountains, #message {
+    display: inline-block;
+}
+
+#excerpt {
+    background-color: #DDB9A3;
+    color: white;
+    padding: 20px;
+    margin: 3% 4% 3%;
+}
+
+#fire img {
+    width: 15%;
+    display: block;
+    margin: auto;
+}
+
+#fire p {
+    text-align: center;
+    margin: 2% 40%;
+}
+
+#lodging img {
+    width: 15%;
+    display: block;
+    margin: auto;
+}
+
+#lodging p {
+    text-align: center;
+    margin: 0% 40% 5%;
+}
+
+footer {
+    background-color: #F9E7DC;
+    padding: 2% 5%;
+}
+
+.bg-image {
+    height: 60vh;
+    background-image: url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+span {
+    font-weight: bold;
+}
